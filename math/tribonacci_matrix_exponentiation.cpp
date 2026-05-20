@@ -144,11 +144,5 @@ static void test() {
  */
 int main() {
     test();
-    uint64_t mod = 1000000007;
-    std::cout << ("Enter the value of N: ");
-    uint64_t n = 0;
-    std::cin >> n;
-    std::cout << n << ("th Tribonacci number in modulo ") << mod << ": "
-              << math::tribonacci(n, mod) << std::endl;
     return 0;
 }
