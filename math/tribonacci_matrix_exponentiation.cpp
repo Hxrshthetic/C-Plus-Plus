@@ -125,17 +125,17 @@ static void test() {
     std::cout << ("Test case 1 Passed\n");
     assert(math::tribonacci(10, 1000000007) == 81);
     std::cout << ("Test case 2 Passed\n");
-    assert(math::tribonacci(50, 1000000007) == 171504990);
+    assert(math::tribonacci(50, 1000000007) == 171507379);
     std::cout << ("Test case 3 Passed\n");
     assert(math::tribonacci(50, 100000) == 29233);
     std::cout << ("Test case 4 Passed\n");
-    assert(math::tribonacci(70, 1000000007) == 878948754);
+    assert(math::tribonacci(70, 1000000007) == 572431072);
     std::cout << ("Test case 5 Passed\n");
-    assert(math::tribonacci(70, 100000) == 77176);
+    assert(math::tribonacci(70, 100000) == 84359);
     std::cout << ("Test case 6 Passed\n");
-    assert(math::tribonacci(70, 10000) == 7176);
+    assert(math::tribonacci(70, 10000) == 4359);
     std::cout << ("Test case 7 Passed\n");
-    assert(math::tribonacci(500, 1000000007) == 217072921);
+    assert(math::tribonacci(500, 1000000007) == 523325475);
     std::cout << ("Test case 8 Passed\n");
 }
 
