@@ -8,6 +8,7 @@
  *
  * \author [villayatali123](https://github.com/villayatali123)
  * \author [unknown author]()
+ * @author [Hxrshthetic](https://github.com/Hxrshthetic) - (refactored to remove I/O)
  * @see fibonacci.cpp, fibonacci_fast.cpp, string_fibonacci.cpp,
  * fibonacci_large.cpp
  */
@@ -107,10 +108,5 @@ static void test() {
  */
 int main() {
     test();
-    uint64_t mod = 1000000007;
-    std::cout << "Enter the value of N: ";
-    uint64_t n = 0;
-    std::cin >> n;
-    std::cout << n << "th Fibonacci number in modulo " << mod << ": "
-              << fibo(n, mod) << std::endl;
+    return 0;
 }
